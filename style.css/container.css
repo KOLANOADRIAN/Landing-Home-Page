@@ -1,0 +1,22 @@
+
+
+.container--off {
+    display: none;
+} 
+.container {
+    display: block;
+    width: 100vw;  
+    height: 100vh; 
+
+    line-height: 1.6;
+} 
+@media (max-width:767px) {
+    .container{
+      height: auto;
+    
+    }}
+.container__caption {
+    margin-left: 10%;
+    text-shadow: 0 0 10px #ccc;
+    text-align: justify;
+}
