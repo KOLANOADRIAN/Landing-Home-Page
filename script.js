@@ -37,12 +37,12 @@ const button_info = document.querySelector(".button_info");
 button_info.addEventListener("click", info);
 
 
-// 
-const body = document.querySelector(".body");
-const button_mode = document.querySelector(".button_mode");
-const themeName = document.querySelector(".themeName")
-
-button_mode.addEventListener("click", () => {
+const mode = () => {
+    const body = document.querySelector(".body");
     body.classList.toggle("body_dark");
-    themeName.innerText = body.classList.contains("body_dark") ? "jasny" : "ciemny"
-});
+    const themeName = document.querySelector(".themeName");
+    themeName.innerText = body.classList.contains("body_dark") ? "jasny" : "ciemny";
+}
+
+const button_mode = document.querySelector(".button_mode");
+button_mode.addEventListener("click", mode);
