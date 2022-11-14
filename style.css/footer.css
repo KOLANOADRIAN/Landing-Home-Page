@@ -1,0 +1,23 @@
+.social_icon {
+    width: 14px;
+}
+
+.container_footer {
+    font-size: 12px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.281);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.footer_link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+   
+}
