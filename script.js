@@ -41,6 +41,7 @@ button_info.addEventListener("click", info);
 const body = document.querySelector(".body");
 const button_mode = document.querySelector(".button_mode");
 const themeName = document.querySelector(".themeName")
+
 button_mode.addEventListener("click", () => {
     body.classList.toggle("body_dark");
     themeName.innerText = body.classList.contains("body_dark") ? "jasny" : "ciemny"
