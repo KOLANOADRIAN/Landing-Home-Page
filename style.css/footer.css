@@ -1,19 +1,19 @@
-.social_icon {
+.social__icon {
     width: 14px;
 }
 
-.container_footer {
+.container__footer {
     font-size: 12px;
     width: 100%;
     position: fixed;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(136, 122, 122, 0.281);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
 }
-.footer_link {
+.container__footerLink {
     color: white;
     text-decoration: none;
     display: flex;

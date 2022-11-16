@@ -1,13 +1,17 @@
 
-.body_dark {
+.body__dark {
     background-color: black;
     color: rgb(226, 231, 236);
 }
-.button_mode {
+.button__mode {
+  margin-top: 5px;
   border: none;
   background-color: rgba(240, 248, 255, 0);
   color: rgb(109, 111, 116);
+  position: fixed;
+  top: 0px;
+  right: 10px;
 }
-.button_mode:hover {
+.button__mode:hover {
     color: rgb(10, 132, 202)
 }

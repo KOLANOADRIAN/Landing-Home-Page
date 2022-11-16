@@ -7,7 +7,7 @@
 
 }
 
-.container_startButton {
+.container__startButton {
     margin-left: 50%;
     margin-top: 20%;
     color: white;
@@ -25,7 +25,7 @@
 }
 
 @media (max-width:767px) {
-    .container_startButton {
+    .container__startButton {
         margin-left: 25%;
         margin-top: 80%;
        
@@ -35,14 +35,14 @@
 .container__startOff {
     background: none;
 }
-.container_startButtonOff {
+.container__startButtonOff {
     display: none;
 }
-.container_startButton:hover {
+.container__startButton:hover {
     transform: rotateY(360deg);
     
 }
-.container_startButton:active {
+.container__startButton:active {
 background-color: rgba(32, 41, 40, 0.342);
 }
 @keyframes rotate {

@@ -21,8 +21,9 @@
     <link rel="stylesheet" type="text/css" href="./style.css/global.css">
     <link rel="stylesheet" type="text/css" href="./style.css/container__start.css">
     <link rel="stylesheet" type="text/css" href="./style.css/container.css">
-    <link rel="stylesheet" type="text/css" href="./style.css/style_mode.css">
+    <link rel="stylesheet" type="text/css" href="./style.css/style__mode.css">
     <link rel="stylesheet" type="text/css" href="./style.css/alert.css">
+    <link rel="stylesheet" type="text/css" href="./style.css/container__cube.css">
     <link rel="stylesheet" type="text/css" href="./style.css/footer.css">
     <script defer src="./script.js"></script>
 
@@ -30,68 +31,72 @@
 
 <body class="body">
     <div class="container__start">
-        <button class="container_startButton">Go in</button>
+        <button class="container__startButton">Go in</button>
         <div class="conteiner container--off">
-            <button class="button_mode">Włącz <span class="themeName">ciemny</span> motyw</button>
-            <div class="read">
-                Przykładowy text.
-                <strong>
-                    Pliki cookie i inne technologie używane do realizowania funkcjonalności pozwalają na dostęp do
-                    głównych
-                    funkcji danej usługi.
-                </strong>
-            </div>
-            <div class="cookies_alert" id="content">
-                <p class="cookies_alert--paragraf">
+            <button class="button__mode">Włącz <span class="themeName">ciemny</span> motyw</button>
+            <div class="cookies__alert" id="content">
+                <p class="cookies__alert--paragraf">
                     Ta strona wykorzystuje do działania pliki cookie. Możesz zmienić ustawienia akceptacji plików cookie
                     w
                     swojej przeglądarce. Korzystając z tej strony akceptujesz postanowienia Polityki Prywatności.
                 </p>
-                <button class="button_akcept"> Akcept</button> <button class="button_info">Info</button>
+                <button class="button__akcept"> Akcept</button> 
             </div>
-            <main class="container_main">
-                <nav class="main_nav">
-                    <a href="O_mnie">Home</a>
 
-                </nav>
-                <header class="main_heder">
-                    <img src="">
-                    <h2>Adrian Kolano</h2>
-                </header>
-            </main>
-            <section id="O_mnie" class="container_section">
-                <h3>O mnie</h3>
-                <p></p>
-                <h3>Doświadczenia zawodowe</h3>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </section>
-            <div class="">
-                <a href="">Link do tabeli</a>
-            </div>
-            
-            <aside class="container_aside">
-                <h3>Zainteresowania</h3>
-            </aside>
-            <footer class="container_footer">
+            <div class="container__cube">
+                <main id="home" class="container__cubeMain">
+                    <nav class="container__cubeNav">
+                        <a class="container__cubeLink" href="#home">Home</a>
+                        <a class="container__cubeLink" href="#O_mnie">O mnie</a>
+                        <a class="container__cubeLink" href="#experiens">Experienxe</a>
+                        <a class="container__cubeLink" href="#cube_link">Tabela</a>
+                        <a class="container__cubeLink" href="#egg">Zainteresowana</a>
+                    </nav>
+                    <header class="container__cubeHeder">
+                        <img src="">
+                        <h2>Adrian Kolano</h2>
+                    </header>
+                </main>
+                <section id="O_mnie" class="container__cubeSection">
+                    <h3>O mnie</h3>
+                    <p></p>
+                </section>
+                <section id="experiens" class="container__cubeSection">
+                    <h3>Doświadczenia zawodowe</h3>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </section>
+                <section id="cube_link" class="container__cubeSection">
+                    <a class="container__cubeLink" href=""> Link do tabeli</a>
+                    <img>
+                </section>
+                <section class="container__cubeSection" >
+                  <a class="container__cubeLink" id="egg" class="cube_aside">
+                    <h3>Zainteresowania</h3>  
+                </section>
+            </cube>
+            <footer class="container__footer">
                 &copy; Adrian Kolano
-                <a title="Facebook" href="https://www.facebook.com/adrian.kolano.98/" target="blank" class="footer_link">
-                    <img class="social_icon" src="./social.icon/iconfinder_1_Facebook_colored_svg_copy_5296499.png"
-                        alt="facebook_icon">
+                <a class="container__footerLink" title="Facebook" href="https://www.facebook.com/adrian.kolano.98/" target="blank"
+                    class="footer__link">
+                    <img class="social__icon" src="./social.icon/iconfinder_1_Facebook_colored_svg_copy_5296499.png"
+                        alt="facebook__icon">
                 </a>
-                <a title="Instagram" href="https://www.instagram.com/adriankolano/?hl=pl" target="blank" class="footer_link">
-                    <img class="social_icon" src="./social.icon/iconfinder_1_Instagram_colored_svg_1_5296765.png"
-                        alt="instagram_icon">
+                <a class="container__footerLink" title="Instagram" href="https://www.instagram.com/adriankolano/?hl=pl" target="blank"
+                    class="footer__link">
+                    <img class="social__icon" src="./social.icon/iconfinder_1_Instagram_colored_svg_1_5296765.png"
+                        alt="instagram__icon">
                 </a>
-                <a title="Linkedin" href="https://www.linkedin.com/in/adrian-kolano-32424a15b/" target="blank" class="footer_link">
-                    <img class="social_icon"
+                <a class="container__footerLink" title="Linkedin" href="https://www.linkedin.com/in/adrian-kolano-32424a15b/" target="blank"
+                    class="footer__link">
+                    <img class="social__icon"
                         src="./social.icon/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"
-                        alt="instagram_icon">
+                        alt="instagram__icon">
                 </a>
-                <a title="GitHub" href="https://github.com/KOLANOADRIAN" target="blank" class="footer_link">
-                    <img class="social_icon" src="./social.icon/github-logo.png" alt="instagram_icon">
+                <a class="container__footerLink" title="GitHub" href="https://github.com/KOLANOADRIAN" target="blank" class="footer_link">
+                    <img class="social__icon" src="./social.icon/github-logo.png" alt="instagram_icon">
                 </a>
             </footer>
         </div>

@@ -1,8 +1,10 @@
 
-
-window.addEventListener("load", function () {
+const sayHello  = () => {
+  window.addEventListener("load", function () {
     console.log("HelloWorld!... The page has loaded")
 });
+}
+sayHello();
 
 
 
@@ -10,39 +12,31 @@ const start = () => {
     const containerOff = document.querySelector(".container--off")
     const container__start = document.querySelector(".container__start");
     container__start.classList.toggle("container__startOff");
-    container_startButton.classList.toggle("container_startButtonOff");
+    container__startButton.classList.toggle("container__startButtonOff");
     containerOff.classList.toggle("container");
 }
 
-const container_startButton = document.querySelector(".container_startButton");
-container_startButton.addEventListener("click", start);
+const container__startButton = document.querySelector(".container__startButton");
+container__startButton.addEventListener("click", start);
 
 
 // ...........cookies_alert
 const alert = () => {
-    const cookies_alert = document.querySelector(".cookies_alert");
-    cookies_alert.remove();
-    const read = document.querySelector(".read");
-    read.remove();
+    const cookies__alert = document.querySelector(".cookies__alert");
+    cookies__alert.remove();
 };
 
-const button_akcept = document.querySelector(".button_akcept");
-button_akcept.addEventListener("click", alert)
+const button__akcept = document.querySelector(".button__akcept");
+button__akcept.addEventListener("click", alert)
 
-const info = () => {
-    const read = document.querySelector(".read");
-    read.classList.toggle("read_open");
-};
-const button_info = document.querySelector(".button_info");
-button_info.addEventListener("click", info);
 
 
 const mode = () => {
     const body = document.querySelector(".body");
-    body.classList.toggle("body_dark");
+    body.classList.toggle("body__dark");
     const themeName = document.querySelector(".themeName");
-    themeName.innerText = body.classList.contains("body_dark") ? "jasny" : "ciemny";
+    themeName.innerText = body.classList.contains("body__dark") ? "jasny" : "ciemny";
 }
 
-const button_mode = document.querySelector(".button_mode");
-button_mode.addEventListener("click", mode);
+const button__mode = document.querySelector(".button__mode");
+button__mode.addEventListener("click", mode);
