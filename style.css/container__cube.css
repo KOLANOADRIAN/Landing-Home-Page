@@ -1,8 +1,27 @@
 .container__cube {
-margin-left: 100px;
+    padding-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container__cubeNav{
     
 }
-
+.container__cubeLink {
+    display: flex;
+    text-decoration: none;
+    
+}
+.container__cubeHeder {
+    border-top: 3px solid black;
+}
+.container__cubeMain {
+    box-shadow:  0 2px 4px rgb(124, 116, 116);
+    height: 60vh;
+}
 .container__cubeSection {
+    margin-top: 1%;
+    margin-bottom: 2%;
     height: 300px;
+    box-shadow:  0 2px 4px rgb(138, 128, 128);
 }
