@@ -5,6 +5,7 @@
 }
 .button__mode {
   margin-top: 5px;
+  margin-right: 50px;
   border: none;
   background-color: rgba(240, 248, 255, 0);
   color: rgb(109, 111, 116);
