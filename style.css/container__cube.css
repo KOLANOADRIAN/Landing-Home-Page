@@ -5,15 +5,21 @@
     margin-right: auto;
 }
 .container__cubeNav{
-    
+    line-height: 2;
+    padding: 2%  5%;
+    font-weight: 900;
 }
 .container__cubeLink {
     display: flex;
     text-decoration: none;
-    
+    color: black;
+    }
+
+.body__dark .container__cubeLink {
+    color: azure;
 }
 .container__cubeHeder {
-    border-top: 3px solid black;
+    
 }
 .container__cubeMain {
     box-shadow:  0 2px 4px rgb(124, 116, 116);
