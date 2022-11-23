@@ -6,3 +6,6 @@ html {
     box-sizing: inherit;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
