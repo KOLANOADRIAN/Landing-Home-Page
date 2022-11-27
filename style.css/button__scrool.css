@@ -6,4 +6,6 @@
     position: fixed;
     right: 30px;
     bottom: 50px;
+    text-decoration: none;
+    font-weight: 900;
 }

@@ -1,5 +1,7 @@
 .container__cube {
+    box-shadow:  0 2px 4px rgb(124, 116, 116);
     padding-top: 50px;
+    padding-left: 5%;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -14,20 +16,30 @@
     text-decoration: none;
     color: black;
     }
+    .container__cubeLink:hover {
+        color: rgb(81, 189, 189);
+    }
 
 .body__dark .container__cubeLink {
     color: azure;
 }
+.body__dark .container__cubeLink:hover {
+    color: rgb(81, 189, 189);
+}
 .container__cubeHeder {
+    display: flex;
+    
+    
+}
+.heder__img {
     
 }
 .container__cubeMain {
-    box-shadow:  0 2px 4px rgb(124, 116, 116);
-    height: 60vh;
+   
 }
 .container__cubeSection {
     margin-top: 1%;
     margin-bottom: 2%;
     height: 300px;
-    box-shadow:  0 2px 4px rgb(138, 128, 128);
+   
 }
