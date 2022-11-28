@@ -2,14 +2,14 @@
 .container--off {
     display: none;
 } 
+
 .container {
     display: block;
     margin-top: 50px;
-
 } 
+
 @media (max-width:767px) {
     .container{
       height: auto;
-    
     }}
 

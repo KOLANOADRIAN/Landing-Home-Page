@@ -3,6 +3,7 @@
     background-color: black;
     color: rgb(226, 231, 236);
 }
+
 .button__mode {
   margin-top: 5px;
   margin-right: 50px;
@@ -13,6 +14,7 @@
   top: 0px;
   right: 10px;
 }
+
 .button__mode:hover {
     color: rgb(10, 132, 202)
 }

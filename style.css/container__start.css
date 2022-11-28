@@ -21,32 +21,32 @@
     opacity: 0;
     transition-property: transform;
     transition-duration: 1s ;
-
 }
 
 @media (max-width:767px) {
     .container__startButton {
         margin-left: 25%;
-        margin-top: 80%;
-       
-       
-        
+        margin-top: 80%;       
  }}
+
 .container__startOff {
     width: 100%;
     margin-top: 80px;
     background: none;
 }
+
 .container__startButtonOff {
     display: none;
 }
+
 .container__startButton:hover {
     transform: rotateY(360deg);
-    
 }
+
 .container__startButton:active {
 background-color: rgba(32, 41, 40, 0.342);
 }
+
 @keyframes rotate {
     0% {opacity: 0;}
     100% {opacity: 1;}

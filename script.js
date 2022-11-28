@@ -2,11 +2,11 @@
 const sayHello  = () => {
   window.addEventListener("load", function () {
     console.log("HelloWorld!... The page has loaded")
-});
-}
+})};
+
 sayHello();
 
-
+// container start
 
 const start = () => {
     const containerOff = document.querySelector(".container--off")
@@ -14,7 +14,7 @@ const start = () => {
     container__start.classList.toggle("container__startOff");
     container__startButton.classList.toggle("container__startButtonOff");
     containerOff.classList.toggle("container");
-}
+};
 
 const container__startButton = document.querySelector(".container__startButton");
 container__startButton.addEventListener("click", start);
@@ -29,7 +29,7 @@ const alert = () => {
 const button__akcept = document.querySelector(".button__akcept");
 button__akcept.addEventListener("click", alert)
 
-
+// Change mode
 
 const mode = () => {
     const body = document.querySelector(".body");

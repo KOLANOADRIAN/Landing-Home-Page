@@ -13,11 +13,11 @@
     justify-content: center;
     padding: 5px;
 }
+
 .container__footerLink {
     color: white;
     text-decoration: none;
     display: flex;
     align-items: center;
     margin: 0 10px;
-   
 }

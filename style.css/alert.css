@@ -20,15 +20,13 @@
 .cookies__alert--paragraf {
     margin: 10px;
 }
-#content {
 
+#content {
     position: relative;
     animation-name: content;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-
 }
-
 
 @keyframes content {
     0% {
@@ -40,8 +38,6 @@
     }
 }
 
-
-
 .button__akcept {
     margin: 0px 25px; 
     padding: 0px 10px;
@@ -49,5 +45,6 @@
     border-radius: 1px;
 }
 .button__akcept:hover {
-    background-color: rgb(90, 233, 24);
+    background-color: rgb(64, 150, 25);
+    color: aliceblue;
 }
