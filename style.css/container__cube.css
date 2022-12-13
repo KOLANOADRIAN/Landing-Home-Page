@@ -1,6 +1,5 @@
 .container__cube {
     box-shadow:  0 2px 4px rgb(124, 116, 116);
-    padding-top: 50px;
     padding-left: 5%;
     width: 90%;
     margin-left: auto;
@@ -36,7 +35,7 @@
 .heder__img {
     width: 30%;
     border-radius: 3px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 50px;
     margin-right: 120px;
     margin-bottom: 200px;
